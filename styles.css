@@ -108,6 +108,15 @@
   line-height: 16rem;
 }
 
+.info-button {
+  height: 42px;
+  width: 10em;
+  background-color: #385C6C;
+  box-shadow: 0 8px 40px 0 #4B4B4B;
+  color: white;
+  float: right;
+}
+
 #product-header {
   max-width: 30%;
   color: #B8A9A3;
