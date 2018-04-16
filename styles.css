@@ -12,8 +12,8 @@
 
 #header-logo {
   position: absolute;
-  top: 1.3em;
-  left: 3.3em;
+  top: 1.3rem;
+  left: 3.3rem;
   width: 4.3em;
 }
 
@@ -33,7 +33,7 @@
   width: 70%;
   position: absolute;
   display: flex;
-  top: 1.6em;
+  top: 1.6rem;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -63,8 +63,7 @@
 }
 
 #product-header {
-  height: 80px;
-  width: 413px;
+  max-width: 30%;
   color: #B8A9A3;
   font-family: "Playfair Display";
   font-size: 60px;
@@ -73,9 +72,23 @@
   line-height: 80px;
   margin: 0 auto;
   position: relative;
-  top: 0.7em;
+  top: 2.5rem;
+}
+
+#product-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  top: 5rem;
 }
 
 .product {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   background: white;
+  max-width: 30%;
+  margin-left: 1em;
+  margin-right: 1em;
 }
