@@ -29,6 +29,12 @@
   top: -7.7%;
 }
 
+#organization {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .nav-bar {
   color: white;
   width: 70%;
@@ -61,6 +67,42 @@
   cursor: pointer;
   color: #B8A9A3;
   border-bottom: 1px solid #B8A9A3;
+}
+
+#who-container, #what-container {
+  height: 20rem;
+  width: 30rem;
+  border: 1px solid black;
+  margin: 0 5rem 0 5rem;
+}
+
+#who-container {
+  margin-top: 5rem;
+}
+
+#what-container {
+  margin-top: 25rem;
+}
+
+.org-header {
+  font-family: 'Playfair Display';
+  color: #252537;
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 2.93px;
+}
+
+.org-description {
+  width: 26rem;
+}
+
+.org-bg-number {
+  position: absolute;
+  opacity: 30%;
+  color: #B8A9A3;
+  font-size: 12rem;
+  font-family: 'Playfair Display';
+  letter-spacing: 11.92px;
 }
 
 #product-header {
@@ -153,10 +195,17 @@
   border-radius: 4px;
   background-color: #385C6C;
   color: white;
-  margin: 0 auto 2em;
+  margin: 1.75em auto 2em;
   font-size: 0.9em;
 }
 
 .product-button:hover {
   cursor: pointer;
+}
+
+.divider {
+  margin: 0 auto;
+  height: 1px;
+  width: 26em;
+  background-color: #E1E1E1;
 }
