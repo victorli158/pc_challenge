@@ -109,11 +109,17 @@
   height: 34px;
   color: #464D55;
   font-size: 28px;
-  font-weight: 300;
   letter-spacing: 0.88px;
   line-height: 34px;
   text-align: center;
-  margin-bottom: 0.5em;
+  margin: 0 auto 0.5em auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.bolder {
+  font-weight: bold;
+  margin-right: 0.3em;
 }
 
 .product-description {
@@ -127,11 +133,17 @@
 
 .product-features {
   list-style-type: none;
-  margin: 0 auto 0.9em;
+  margin: 2em auto 0.9em;
+  padding-left: 0;
 }
 .product-features li {
-  margin: 0 auto 0.9em;
+  margin: 0.9em auto 0.9em;
   font-size: 0.85em;
+  font-weight: 300;
+}
+
+.product-features li:last-child {
+  margin-bottom: 2em;
 }
 
 .product-button {
