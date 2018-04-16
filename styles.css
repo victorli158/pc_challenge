@@ -7,8 +7,16 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-#header, #organization, #products {
+#header {
   height: 47rem;
+}
+
+#organization {
+  height: 54rem;
+}
+
+#products {
+  height: 51rem;
 }
 
 #header-logo {
@@ -71,17 +79,19 @@
 
 #who-container, #what-container {
   height: 20rem;
-  width: 30rem;
-  border: 1px solid black;
   margin: 0 5rem 0 5rem;
+  position: relative;
+  border: 1px solid black;
 }
 
 #who-container {
   margin-top: 5rem;
+  width: 29rem;
 }
 
 #what-container {
   margin-top: 25rem;
+  width: 30rem;
 }
 
 .org-header {
@@ -90,31 +100,38 @@
   font-size: 60px;
   font-weight: bold;
   letter-spacing: 2.93px;
+  margin-bottom: 0.6em;
 }
 
 .org-description {
   width: 26rem;
   font-family: 'Montserrat';
   letter-spacing: 0.73px;
+  float: right;
+  font-weight: 500;
 }
 
 .org-bg-number {
   position: absolute;
   opacity: 0.3;
   color: #B8A9A3;
-  font-size: 12rem;
+  font-size: 16em;
   font-family: 'Playfair Display';
   letter-spacing: 11.92px;
   line-height: 16rem;
+  top: 0.55em;
+  right: 1em;
 }
 
 .info-button {
   height: 42px;
-  width: 10em;
+  width: 13em;
   background-color: #385C6C;
-  box-shadow: 0 8px 40px 0 #4B4B4B;
   color: white;
   float: right;
+  border: none;
+  letter-spacing: 0.9px;
+  font-size: 13px;
 }
 
 #product-header {
