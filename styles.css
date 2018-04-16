@@ -94,15 +94,18 @@
 
 .org-description {
   width: 26rem;
+  font-family: 'Montserrat';
+  letter-spacing: 0.73px;
 }
 
 .org-bg-number {
   position: absolute;
-  opacity: 30%;
+  opacity: 0.3;
   color: #B8A9A3;
   font-size: 12rem;
   font-family: 'Playfair Display';
   letter-spacing: 11.92px;
+  line-height: 16rem;
 }
 
 #product-header {
