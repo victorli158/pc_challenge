@@ -1,9 +1,10 @@
 #header {
-  background: url("assets/Faces Background.png");
+  background: url('assets/Faces Background.png');
 }
 
 #products {
   background: #464D55;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #header, #organization, #products {
@@ -50,7 +51,7 @@
   padding-right: 2em;
   padding-bottom: 1em;
   padding-left: 1.5em;
-  font-size: 12px;
+  font-size: 0.7em;
   letter-spacing: 1.2px;
   line-height: 45px;
   border-bottom: 1px solid white;
@@ -65,7 +66,7 @@
 #product-header {
   max-width: 30%;
   color: #B8A9A3;
-  font-family: "Playfair Display";
+  font-family: 'Playfair Display';
   font-size: 60px;
   font-weight: bold;
   letter-spacing: 3.13px;
@@ -88,7 +89,62 @@
   flex-direction: column;
   text-align: center;
   background: white;
-  max-width: 30%;
+  width: 32.5%;
   margin-left: 1em;
   margin-right: 1em;
+}
+
+.product-type {
+  height: 15px;
+  color: #1A1A1E;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 3.74px;
+  line-height: 15px;
+  text-align: center;
+  margin-top: 3em;
+}
+
+.product-name {
+  height: 34px;
+  color: #464D55;
+  font-size: 28px;
+  font-weight: 300;
+  letter-spacing: 0.88px;
+  line-height: 34px;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.product-description {
+  width: 25em;
+  margin: 0 auto 0.5em;
+  color: #1A1A1E;
+  font-size: 0.9em;
+  line-height: 25px;
+  text-align: center;
+}
+
+.product-features {
+  list-style-type: none;
+  margin: 0 auto 0.9em;
+}
+.product-features li {
+  margin: 0 auto 0.9em;
+  font-size: 0.85em;
+}
+
+.product-button {
+  border: none;
+  height: 59px;
+  width: 25em;
+  border-radius: 4px;
+  background-color: #385C6C;
+  color: white;
+  margin: 0 auto 2em;
+  font-size: 0.9em;
+}
+
+.product-button:hover {
+  cursor: pointer;
 }
