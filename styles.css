@@ -8,6 +8,7 @@ button:hover {
 
 #header {
   background: url('assets/Faces Background.png');
+  background-repeat: no-repeat;
 }
 
 #products {
@@ -60,6 +61,7 @@ button:hover {
   left: 0;
   right: 0;
   margin: 0 auto;
+  justify-content: center;
 }
 
 .nav-bar ul {
@@ -104,10 +106,10 @@ button:hover {
   font-size: 24px;
   line-height: 32px;
   position: absolute;
-  bottom: 19rem;
+  bottom: 12.5em;
   right: 11rem;
   font-weight: 300;
-  letter-spacing: 1px;
+  letter-spacing: 0.8px;
 }
 
 #header-line {
@@ -115,7 +117,7 @@ button:hover {
   width: 11rem;
   background-color: #B8A9A3;
   position: absolute;
-  bottom: 22rem;
+  bottom: 22em;
   right: 0;
 }
 
@@ -345,4 +347,11 @@ button:hover {
   height: 1px;
   width: 26em;
   background-color: #E1E1E1;
+}
+
+@media (min-width: 1281px) {
+  #header {
+    background-size: 100% auto;
+  }
+
 }
