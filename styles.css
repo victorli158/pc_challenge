@@ -73,16 +73,26 @@ button:hover {
   padding-right: 2em;
   padding-bottom: 1em;
   padding-left: 1.5em;
-  font-size: 0.7em;
+  font-size: 12px;
   letter-spacing: 1.2px;
   line-height: 45px;
+  color: white;
   border-bottom: 1px solid white;
   transition: color 0.2s ease;
 }
 
-.nav-bar ul li:hover {
+.nav-bar ul li a {
+  transition: color 0.2s ease;
+  color: inherit;
+}
+
+.nav-bar ul li a:hover {
   cursor: pointer;
   color: #B8A9A3;
+}
+
+.nav-bar ul li:hover {
+  transition: border-bottom 0.2s ease;
   border-bottom: 1px solid #B8A9A3;
 }
 
@@ -189,7 +199,6 @@ button:hover {
   width: 34rem;
   right: 24rem;
   bottom: -41.45rem;
-
 }
 
 .org-header {
@@ -230,6 +239,11 @@ button:hover {
   border: none;
   letter-spacing: 0.9px;
   font-size: 13px;
+}
+
+#skip-org {
+  position: relative;
+  bottom: -19rem;
 }
 
 #product-header {
