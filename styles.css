@@ -70,6 +70,7 @@ button:hover {
   list-style-type: none;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+  white-space: nowrap;
 }
 
 .nav-bar ul li {
@@ -387,12 +388,6 @@ button:hover {
 
   #org-line-2 {
     bottom: -35.5%;
-  }
-}
-
-@media (min-width: 1281px) {
-  .nav-bar {
-    white-space: nowrap;
   }
 }
 
