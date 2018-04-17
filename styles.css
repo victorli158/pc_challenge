@@ -1,3 +1,11 @@
+a:hover {
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
 #header {
   background: url('assets/Faces Background.png');
 }
@@ -92,7 +100,7 @@
   letter-spacing: 1px;
 }
 
-#line {
+#header-line {
   height: 1px;
   width: 11rem;
   background-color: #B8A9A3;
@@ -150,7 +158,6 @@
   height: 20rem;
   margin: 0 5rem 0 5rem;
   position: relative;
-  border: 1px solid black;
 }
 
 #who-container {
@@ -161,6 +168,28 @@
 #what-container {
   margin-top: 25rem;
   width: 30rem;
+  top: -1rem;
+  left: -3rem;
+}
+
+.org-line {
+  height: 1px;
+  transform: rotate(90deg);
+  background-color: #B8A9A3;
+  position: absolute;
+}
+
+#org-line-1 {
+  width: 21rem;
+  bottom: -12rem;
+  left: 31rem;
+}
+
+#org-line-2 {
+  width: 34rem;
+  right: 24rem;
+  bottom: -41.45rem;
+
 }
 
 .org-header {
@@ -295,10 +324,6 @@
   color: white;
   margin: 1.75em auto 2em;
   font-size: 0.9em;
-}
-
-.product-button:hover {
-  cursor: pointer;
 }
 
 .divider {
