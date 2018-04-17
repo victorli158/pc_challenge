@@ -69,12 +69,67 @@
   letter-spacing: 1.2px;
   line-height: 45px;
   border-bottom: 1px solid white;
+  transition: color 0.2s ease;
 }
 
 .nav-bar ul li:hover {
   cursor: pointer;
   color: #B8A9A3;
   border-bottom: 1px solid #B8A9A3;
+}
+
+#header-quote {
+  height: 96px;
+  width: 318px;
+  color: #FFFFFF;
+  font-family: 'Oswald';
+  font-size: 24px;
+  line-height: 32px;
+  position: absolute;
+  bottom: 19rem;
+  right: 11rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+#line {
+  height: 1px;
+  width: 14rem;
+  background-color: #B8A9A3;
+  position: absolute;
+  bottom: 22rem;
+  right: -3rem;
+}
+
+#header-intro {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: absolute;
+  bottom: 2rem;
+  left: 9rem;
+  width: 30rem;
+}
+
+#header-tagline {
+  font-weight: 900;
+  font-family: 'Playfair Display';
+  letter-spacing: 0.89px;
+  font-size: 57px;
+  line-height: 75px;
+}
+
+#header-stronger {
+  font-family: 'Oswald';
+  letter-spacing: 0.5px;
+  font-size: 32px;
+  line-height: 75px;
+}
+
+#header-button {
+  background-color: white;
+  color: #252537;
+  font-weight: 500;
 }
 
 #who-container, #what-container {
