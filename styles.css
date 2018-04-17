@@ -4,6 +4,7 @@ a:hover {
 
 button:hover {
   cursor: pointer;
+  background-color: #464D55;
 }
 
 #header {
@@ -153,6 +154,11 @@ button:hover {
   background-color: white;
   color: #252537;
   font-weight: 500;
+}
+
+#header-button:hover {
+  background-color: #385C6C;
+  color: white;
 }
 
 #skip-header {
