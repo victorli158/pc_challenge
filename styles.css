@@ -66,6 +66,7 @@ button:hover {
 }
 
 .nav-bar ul {
+  display: flex;
   list-style-type: none;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -73,30 +74,27 @@ button:hover {
 
 .nav-bar ul li {
   display: inline-block;
-  padding-right: 2em;
-  padding-bottom: 1em;
-  padding-left: 1.5em;
   font-size: 12px;
   letter-spacing: 1.2px;
   line-height: 45px;
   color: white;
-  border-bottom: 1px solid white;
-  transition: color 0.2s ease;
 }
 
 .nav-bar ul li a {
   transition: color 0.2s ease;
   color: inherit;
+  padding-right: 2em;
+  padding-bottom: 2.2em;
+  padding-left: 2em;
+  border-bottom: 1px solid white;
+  transition: color 0.2s ease;
 }
 
 .nav-bar ul li a:hover {
   cursor: pointer;
   color: #B8A9A3;
-}
-
-.nav-bar ul li:hover {
-  transition: border-bottom 0.2s ease;
   border-bottom: 1px solid #B8A9A3;
+  transition: border-bottom 0.2s ease;
 }
 
 #header-quote {
