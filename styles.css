@@ -59,7 +59,7 @@ button:hover {
   display: flex;
   top: 1.6rem;
   left: 0;
-  right: 0;
+  right: 1rem;
   margin: 0 auto;
   justify-content: center;
 }
@@ -106,7 +106,7 @@ button:hover {
   font-size: 24px;
   line-height: 32px;
   position: absolute;
-  bottom: 12.5em;
+  top: 16.5rem;
   right: 11rem;
   font-weight: 300;
   letter-spacing: 0.8px;
@@ -117,7 +117,7 @@ button:hover {
   width: 11rem;
   background-color: #B8A9A3;
   position: absolute;
-  bottom: 22em;
+  top: 20rem;
   right: 0;
 }
 
@@ -126,7 +126,7 @@ button:hover {
   flex-direction: column;
   color: white;
   position: absolute;
-  bottom: -1.25rem;
+  top: 25rem;
   left: 9rem;
   width: 30rem;
 }
@@ -162,8 +162,9 @@ button:hover {
   line-height: 14px;
   text-align: center;
   width: 2em;
-  bottom: -3rem;
-  right: -1rem;
+  top: 45rem;
+  left: 39rem;
+  z-index: 1;
 }
 
 #who-container, #what-container {
@@ -173,15 +174,15 @@ button:hover {
 }
 
 #who-container {
-  margin-top: 5rem;
-  width: 29rem;
+  margin-top: 5.5rem;
+  width: 27rem;
 }
 
 #what-container {
   margin-top: 25rem;
-  width: 30rem;
+  width: 27rem;
   top: -1rem;
-  left: -3rem;
+  left: -2rem;
 }
 
 .org-line {
@@ -189,6 +190,7 @@ button:hover {
   transform: rotate(90deg);
   background-color: #B8A9A3;
   position: absolute;
+  z-index: 1;
 }
 
 #org-line-1 {
@@ -213,23 +215,25 @@ button:hover {
 }
 
 .org-description {
-  width: 26rem;
+  width: 24rem;
   font-family: 'Montserrat';
   letter-spacing: 0.73px;
   float: right;
   font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
 }
 
 .org-bg-number {
   position: absolute;
   opacity: 0.3;
   color: #B8A9A3;
-  font-size: 16em;
+  font-size: 15em;
   font-family: 'Playfair Display';
   letter-spacing: 11.92px;
   line-height: 16rem;
   top: 0.55em;
-  right: 1em;
+  right: 0.9em;
 }
 
 .info-button {
@@ -239,7 +243,7 @@ button:hover {
   color: white;
   float: right;
   border: none;
-  letter-spacing: 0.9px;
+  letter-spacing: 1.2px;
   font-size: 13px;
 }
 
@@ -259,6 +263,7 @@ button:hover {
   margin: 0 auto;
   position: relative;
   top: 2.5rem;
+  text-align: center;
 }
 
 #product-container {
@@ -309,21 +314,23 @@ button:hover {
 
 .product-description {
   width: 25em;
-  margin: 0 auto 0.5em;
+  margin: 0 auto 1em;
   color: #1A1A1E;
   font-size: 0.9em;
   line-height: 25px;
   text-align: center;
+  font-weight: 500;
 }
 
 .product-features {
   list-style-type: none;
   margin: 2em auto 0.9em;
   padding-left: 0;
+  padding-top: 0;
 }
 .product-features li {
-  margin: 0.9em auto 0.9em;
-  font-size: 0.85em;
+  margin: 0 auto 1.2em;
+  font-size: 0.9em;
   font-weight: 300;
 }
 
@@ -349,9 +356,22 @@ button:hover {
   background-color: #E1E1E1;
 }
 
-@media (min-width: 1281px) {
+@media (min-width: 1441px) {
+
   #header {
     background-size: 100% auto;
   }
 
+  #header-person {
+    left: 30%;
+  }
+
+  #skip-header {
+    left: 50%;
+  }
+
+  #org-line-1 {
+    left: 44%;
+    top: 89%;
+  }
 }
