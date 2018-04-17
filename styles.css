@@ -137,6 +137,7 @@ button:hover {
   letter-spacing: 0.89px;
   font-size: 57px;
   line-height: 75px;
+  margin-bottom: 0;
 }
 
 #header-stronger {
@@ -144,6 +145,8 @@ button:hover {
   letter-spacing: 0.5px;
   font-size: 32px;
   line-height: 75px;
+  font-weight: 500;
+  margin-bottom: 0.6em;
 }
 
 #header-button {
@@ -156,15 +159,15 @@ button:hover {
   position: absolute;
   font-family: 'Montserrat';
   color: #FAFAFA;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
   transform: rotate(270deg);
-  font-size: 11px;
+  font-size: 10px;
   line-height: 14px;
-  text-align: center;
   width: 2em;
   top: 45rem;
   left: 39rem;
   z-index: 1;
+
 }
 
 #who-container, #what-container {
@@ -216,7 +219,7 @@ button:hover {
 }
 
 .org-description {
-  width: 24rem;
+  width: 24.7rem;
   font-family: 'Montserrat';
   letter-spacing: 0.73px;
   float: right;
@@ -256,6 +259,10 @@ button:hover {
   border: none;
   letter-spacing: 1.2px;
   font-size: 13px;
+}
+
+#what-container > .info-button {
+  margin-right: 2em;
 }
 
 #skip-org {
@@ -374,15 +381,15 @@ button:hover {
   }
 
   #header-person {
-    left: 20%;
+    left: 30%;
   }
 
   #skip-header {
-    left: 40%;
+    left: 45%;
   }
 
   #org-line-1 {
-    left: 34%;
+    left: 39%;
     top: 88.5%;
   }
 
@@ -392,6 +399,15 @@ button:hover {
   }
 
   #who-container {
-    left: -8%;
+    left: -3%;
+  }
+
+  #what-container {
+    left: 0.5%;
+  }
+
+  .product {
+    margin: 0 2em 0 2em;
+    width: 25%;
   }
 }
