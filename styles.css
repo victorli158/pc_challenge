@@ -176,13 +176,14 @@ button:hover {
 #who-container {
   margin-top: 5.5rem;
   width: 27rem;
+  left: 1rem;
 }
 
 #what-container {
   margin-top: 25rem;
-  width: 27rem;
+  width: 32rem;
   top: -1rem;
-  left: -2rem;
+  left: -1rem;
 }
 
 .org-line {
@@ -195,7 +196,7 @@ button:hover {
 
 #org-line-1 {
   width: 21rem;
-  bottom: -12rem;
+  bottom: -12.4rem;
   left: 31rem;
 }
 
@@ -224,6 +225,11 @@ button:hover {
   line-height: 22px;
 }
 
+#org-platform {
+  width: 28em;
+  margin-bottom: 5.5em;
+}
+
 .org-bg-number {
   position: absolute;
   opacity: 0.3;
@@ -234,6 +240,11 @@ button:hover {
   line-height: 16rem;
   top: 0.55em;
   right: 0.9em;
+}
+
+#bg-number-2 {
+  left: -2rem;
+  top: 7rem;
 }
 
 .info-button {
@@ -363,15 +374,24 @@ button:hover {
   }
 
   #header-person {
-    left: 30%;
+    left: 20%;
   }
 
   #skip-header {
-    left: 50%;
+    left: 40%;
   }
 
   #org-line-1 {
-    left: 44%;
-    top: 89%;
+    left: 34%;
+    top: 88.5%;
+  }
+
+  #org-line-2 {
+    left: 41%;
+    bottom: -35.5%;
+  }
+
+  #who-container {
+    left: -8%;
   }
 }
