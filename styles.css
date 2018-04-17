@@ -205,7 +205,7 @@ button:hover {
 
 #org-line-2 {
   width: 34rem;
-  right: 24rem;
+  left: 31rem;
   bottom: -41.45rem;
 }
 
@@ -300,6 +300,7 @@ button:hover {
   width: 32.5%;
   margin-left: 1em;
   margin-right: 1em;
+  overflow: auto;
 }
 
 .product-type {
@@ -374,6 +375,17 @@ button:hover {
   background-color: #E1E1E1;
 }
 
+@media (min-height: 901px) {
+
+  #org-line-1 {
+    top: 88.5%;
+  }
+
+  #org-line-2 {
+    bottom: -35.5%;
+  }
+}
+
 @media (min-width: 1441px) {
 
   #header {
@@ -390,12 +402,12 @@ button:hover {
 
   #org-line-1 {
     left: 39%;
-    top: 88.5%;
+
   }
 
   #org-line-2 {
     left: 41%;
-    bottom: -35.5%;
+
   }
 
   #who-container {
