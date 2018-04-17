@@ -386,6 +386,12 @@ button:hover {
   }
 }
 
+@media (min-width: 1281px) {
+  .nav-bar {
+    white-space: nowrap;
+  }
+}
+
 @media (min-width: 1441px) {
 
   #header {
